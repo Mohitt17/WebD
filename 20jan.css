@@ -1,0 +1,20 @@
+footer{background-color: rgb(62, 141, 134); 
+    text-align: center;
+    border-radius: 50px;
+    color: aqua;
+    border: 5px solid powderblue;
+    padding: 3px;
+    width: 100px;
+    
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+h1{
+    background-color: aqua;
+    text-align: center;
+    border-radius: 50px;
+    
+}
