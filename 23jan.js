@@ -2,15 +2,6 @@ window.addEventListener("load", function () {
 
     const submitForm = document.querySelector("footer form");
 
-    // Auto-fill data if already saved
-    const savedData = JSON.parse(localStorage.getItem("studentData"));
-    if (savedData) {
-        const inputs = document.querySelectorAll("#name");
-        inputs[0].value = savedData.fname || "";
-        inputs[1].value = savedData.lname || "";
-        inputs[2].value = savedData.mobile || "";
-    }
-
     submitForm.addEventListener("submit", function (e) {
         e.preventDefault();
 
